@@ -31,7 +31,7 @@
 }
 
 - (BOOL)maximumLength:(int)length {
-    return (self.length >= length);
+    return (self.length <= length);
 }
 
 - (BOOL)isExactLength:(int)length {
